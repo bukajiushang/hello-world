@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clip Games — Making Games That Connect</title>
+  <meta name="description" content="Clip Games is a game studio building social casual games. Our first product: Gomoku (五子棋), a WeChat Mini Program.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♟</text></svg>">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">♟</span>
+        <span class="logo-text">Clip Games</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="container">
+      <h1>We Make Games<br>That Bring People Together</h1>
+      <p class="hero-subtitle">Social casual games designed for the platforms people already use.</p>
+      <a href="#products" class="btn btn-primary">See Our Games</a>
+    </div>
+  </header>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Clip Games</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Clip Games is an independent game studio focused on building social casual games. We believe great games don't need to be complicated — they need to be fun, accessible, and easy to share with friends.</p>
+          <p>Our team builds for platforms where people already spend their time: WeChat Mini Programs, mobile browsers, and social apps. No downloads, no friction — just tap and play.</p>
+        </div>
+        <div class="about-values">
+          <div class="value-card">
+            <div class="value-icon">🎯</div>
+            <h3>Simple &amp; Fun</h3>
+            <p>Games that are easy to learn but hard to put down.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">👥</div>
+            <h3>Social First</h3>
+            <p>Built for playing with friends, not against a screen.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">⚡</div>
+            <h3>Instant Access</h3>
+            <p>No app store needed. Play where you already are.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="products">
+    <div class="container">
+      <h2 class="section-title">Our Products</h2>
+      <div class="product-card featured">
+        <div class="product-badge">Featured</div>
+        <div class="product-content">
+          <div class="product-visual">
+            <div class="gomoku-preview">
+              <div class="board-grid">
+                <div class="stone black"></div>
+                <div class="stone white"></div>
+                <div class="stone black"></div>
+                <div class="stone white"></div>
+                <div class="stone black"></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>五子棋 (Gomoku)</h3>
+            <p class="product-tagline">Classic Five-in-a-Row — now on WeChat</p>
+            <p>A beautifully crafted Gomoku game built as a native WeChat Mini Program. Play the timeless strategy game of Five in a Row right inside WeChat — no download required.</p>
+            <ul class="product-features">
+              <li>Canvas-based board with smooth touch interaction</li>
+              <li>Classic 15&times;15 board — authentic Gomoku experience</li>
+              <li>Two-player local gameplay</li>
+              <li>Clean, minimal design with instant responsiveness</li>
+              <li>Zero install — play directly in WeChat</li>
+            </ul>
+            <div class="product-platform">
+              <span class="platform-badge wechat">WeChat Mini Program</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-content">
+        <p>Interested in our games, partnerships, or just want to say hi?</p>
+        <div class="contact-methods">
+          <a href="mailto:hello@clipgames.dev" class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <span>hello@clipgames.dev</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">♟</span> Clip Games
+        </div>
+        <p class="footer-copy">&copy; 2025 Clip Games. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
